@@ -6,6 +6,7 @@
 #addForm{
     max-width: 800px;
     padding: 20px;
+    margin: 40px auto;
     border: 2px solid rgb(88, 84, 84);
     display: flex;
     justify-content: space-between;
@@ -29,4 +30,18 @@
 }
 #addForm .field p{
     margin-bottom: 5px; 
+}
+#cardContainer{
+    max-width: 800px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 2px solid rgb(88, 84, 84);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+.item{
+    border: 2px solid rgb(152, 148, 148);
+    border-radius: 5px;
+    padding: 5px;
 }

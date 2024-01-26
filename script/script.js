@@ -22,6 +22,10 @@ function getDetailsNode(lastName, firstName, age){
     lastNameNode.innerText = lastName;
     firstNameNode.innerText = firstName;
     ageNode.innerText = age;
+
+    container.classList.add("item")
+    container.style.backgroundColor = "#f1f2f6";
+    container.style.color = "#ff6b81";
     container.append(lastNameNode, firstNameNode, ageNode);
     return container;
 }
